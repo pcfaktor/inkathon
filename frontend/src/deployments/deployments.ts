@@ -8,6 +8,7 @@ import { env } from '@/config/environment'
  */
 export enum ContractIds {
   Greeter = 'greeter',
+  Flipper = 'flipper',
 }
 
 export const getDeployments = async (): Promise<SubstrateDeployment[]> => {
